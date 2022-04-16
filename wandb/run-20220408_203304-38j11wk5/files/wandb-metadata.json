@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-04-08T11:33:09.845652",
+    "startedAt": "2022-04-08T11:33:04.836101",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "8",
+        "--epochs",
+        "300",
+        "--data",
+        "data/test.yaml",
+        "--cfg",
+        "models/yolov5l.yaml",
+        "--weights",
+        "yolov5l.pt",
+        "--name",
+        "test"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5.git",
+        "commit": "b7faeda0f225f909ce87ffe504e829062ac44ca4"
+    },
+    "email": "alsthfdl6478@gmail.com",
+    "root": "C:/Users/minsol/Desktop/yolov5/yolov5",
+    "host": "DESKTOP-N5E2Q3L",
+    "username": "minsol",
+    "executable": "C:\\Users\\minsol\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+}

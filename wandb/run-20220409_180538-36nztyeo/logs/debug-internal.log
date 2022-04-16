@@ -1,0 +1,32 @@
+2022-04-09 18:05:39,838 INFO    MainThread:37408 [internal.py:wandb_internal():92] W&B internal server running at pid: 37408, started at: 2022-04-09 18:05:39.838610
+2022-04-09 18:05:39,840 INFO    WriterThread:37408 [datastore.py:open_for_write():77] open: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\run-36nztyeo.wandb
+2022-04-09 18:05:39,844 DEBUG   SenderThread:37408 [sender.py:send():235] send: header
+2022-04-09 18:05:39,844 DEBUG   SenderThread:37408 [sender.py:send():235] send: run
+2022-04-09 18:05:39,857 INFO    SenderThread:37408 [sender.py:_maybe_setup_resume():492] checking resume status for None/train/36nztyeo
+2022-04-09 18:05:40,351 INFO    SenderThread:37408 [dir_watcher.py:__init__():169] watching files in: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\files
+2022-04-09 18:05:40,351 INFO    SenderThread:37408 [sender.py:_start_run_threads():812] run started: 36nztyeo with start time 1649495138
+2022-04-09 18:05:40,355 DEBUG   SenderThread:37408 [sender.py:send():235] send: summary
+2022-04-09 18:05:40,356 DEBUG   HandlerThread:37408 [handler.py:handle_request():141] handle_request: check_version
+2022-04-09 18:05:40,356 INFO    SenderThread:37408 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-09 18:05:40,356 DEBUG   SenderThread:37408 [sender.py:send_request():249] send_request: check_version
+2022-04-09 18:05:40,423 DEBUG   HandlerThread:37408 [handler.py:handle_request():141] handle_request: run_start
+2022-04-09 18:05:41,367 INFO    Thread-11 :37408 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\files\wandb-summary.json
+2022-04-09 18:05:43,249 DEBUG   HandlerThread:37408 [meta.py:__init__():37] meta init
+2022-04-09 18:05:43,249 DEBUG   HandlerThread:37408 [meta.py:__init__():51] meta init done
+2022-04-09 18:05:43,249 DEBUG   HandlerThread:37408 [meta.py:probe():211] probe
+2022-04-09 18:05:43,282 DEBUG   HandlerThread:37408 [meta.py:_setup_git():201] setup git
+2022-04-09 18:05:43,405 DEBUG   HandlerThread:37408 [meta.py:_setup_git():208] setup git done
+2022-04-09 18:05:43,405 DEBUG   HandlerThread:37408 [meta.py:_save_pip():55] save pip
+2022-04-09 18:05:43,406 DEBUG   HandlerThread:37408 [meta.py:_save_pip():69] save pip done
+2022-04-09 18:05:43,406 DEBUG   HandlerThread:37408 [meta.py:probe():249] probe done
+2022-04-09 18:05:43,411 DEBUG   SenderThread:37408 [sender.py:send():235] send: files
+2022-04-09 18:05:43,411 INFO    SenderThread:37408 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-09 18:05:43,423 DEBUG   HandlerThread:37408 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-09 18:05:43,423 DEBUG   SenderThread:37408 [sender.py:send_request():249] send_request: stop_status
+2022-04-09 18:05:43,674 DEBUG   SenderThread:37408 [sender.py:send():235] send: telemetry
+2022-04-09 18:05:43,674 DEBUG   SenderThread:37408 [sender.py:send():235] send: config
+2022-04-09 18:05:44,082 INFO    Thread-17 :37408 [upload_job.py:push():137] Uploaded file C:\Users\minsol\AppData\Local\Temp\tmp2h59q8q4wandb\1trxay38-wandb-metadata.json
+2022-04-09 18:05:44,382 INFO    Thread-11 :37408 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\files\requirements.txt
+2022-04-09 18:05:44,382 INFO    Thread-11 :37408 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\files\wandb-metadata.json
+2022-04-09 18:05:44,383 INFO    Thread-11 :37408 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\files\output.log
+2022-04-09 18:05:46,398 INFO    Thread-11 :37408 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220409_180538-36nztyeo\files\output.log

@@ -1,0 +1,223 @@
+2022-04-11 17:09:02,804 INFO    MainThread:14452 [internal.py:wandb_internal():92] W&B internal server running at pid: 14452, started at: 2022-04-11 17:09:02.804983
+2022-04-11 17:09:02,807 INFO    WriterThread:14452 [datastore.py:open_for_write():77] open: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\run-tuq5ozvg.wandb
+2022-04-11 17:09:02,811 DEBUG   SenderThread:14452 [sender.py:send():235] send: header
+2022-04-11 17:09:02,811 DEBUG   SenderThread:14452 [sender.py:send():235] send: run
+2022-04-11 17:09:02,823 INFO    SenderThread:14452 [sender.py:_maybe_setup_resume():492] checking resume status for None/train/tuq5ozvg
+2022-04-11 17:09:03,679 INFO    SenderThread:14452 [dir_watcher.py:__init__():169] watching files in: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files
+2022-04-11 17:09:03,679 INFO    SenderThread:14452 [sender.py:_start_run_threads():812] run started: tuq5ozvg with start time 1649664541
+2022-04-11 17:09:03,685 DEBUG   SenderThread:14452 [sender.py:send():235] send: summary
+2022-04-11 17:09:03,685 INFO    SenderThread:14452 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-11 17:09:03,686 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: check_version
+2022-04-11 17:09:03,686 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: check_version
+2022-04-11 17:09:03,826 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: run_start
+2022-04-11 17:09:04,686 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\wandb-summary.json
+2022-04-11 17:09:08,514 DEBUG   HandlerThread:14452 [meta.py:__init__():37] meta init
+2022-04-11 17:09:08,514 DEBUG   HandlerThread:14452 [meta.py:__init__():51] meta init done
+2022-04-11 17:09:08,514 DEBUG   HandlerThread:14452 [meta.py:probe():211] probe
+2022-04-11 17:09:08,550 DEBUG   HandlerThread:14452 [meta.py:_setup_git():201] setup git
+2022-04-11 17:09:08,701 DEBUG   HandlerThread:14452 [meta.py:_setup_git():208] setup git done
+2022-04-11 17:09:08,702 DEBUG   HandlerThread:14452 [meta.py:_save_pip():55] save pip
+2022-04-11 17:09:08,702 DEBUG   HandlerThread:14452 [meta.py:_save_pip():69] save pip done
+2022-04-11 17:09:08,702 DEBUG   HandlerThread:14452 [meta.py:probe():249] probe done
+2022-04-11 17:09:08,720 DEBUG   SenderThread:14452 [sender.py:send():235] send: files
+2022-04-11 17:09:08,720 INFO    SenderThread:14452 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-11 17:09:08,725 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\wandb-metadata.json
+2022-04-11 17:09:08,726 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\requirements.txt
+2022-04-11 17:09:08,751 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:09:08,751 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:09:09,184 DEBUG   SenderThread:14452 [sender.py:send():235] send: telemetry
+2022-04-11 17:09:09,184 DEBUG   SenderThread:14452 [sender.py:send():235] send: config
+2022-04-11 17:09:09,702 INFO    Thread-17 :14452 [upload_job.py:push():137] Uploaded file C:\Users\minsol\AppData\Local\Temp\tmpvn60_ggjwandb\37mn2ucr-wandb-metadata.json
+2022-04-11 17:09:09,746 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:11,788 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:13,797 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:24,205 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:09:24,205 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:09:26,919 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:33,974 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\config.yaml
+2022-04-11 17:09:37,006 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:39,025 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:39,494 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:09:39,494 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:09:41,040 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:41,166 DEBUG   SenderThread:14452 [sender.py:send():235] send: stats
+2022-04-11 17:09:43,075 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:45,083 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:47,096 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:49,145 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:51,164 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:53,183 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:54,833 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:09:54,834 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:09:55,195 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:57,238 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:09:59,244 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:01,266 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:03,293 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:05,303 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:07,319 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:09,338 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:10,349 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:10:10,350 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:10:11,372 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:13,399 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:15,416 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:16,811 DEBUG   SenderThread:14452 [sender.py:send():235] send: stats
+2022-04-11 17:10:17,450 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:19,469 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:21,489 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:23,526 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:25,534 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:25,785 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:10:25,786 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:10:27,566 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:29,598 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:31,610 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:33,665 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:35,672 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:37,702 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:39,719 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:41,066 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:10:41,067 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:10:41,741 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:43,756 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:45,776 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:47,804 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:49,840 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:51,867 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:52,786 DEBUG   SenderThread:14452 [sender.py:send():235] send: stats
+2022-04-11 17:10:53,899 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:55,920 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:56,338 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:10:56,339 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:10:57,945 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:10:59,970 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:01,976 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:03,990 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:06,003 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:08,029 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:10,047 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:11,638 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-11 17:11:11,638 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: stop_status
+2022-04-11 17:11:14,228 DEBUG   SenderThread:14452 [sender.py:send():235] send: telemetry
+2022-04-11 17:11:14,665 DEBUG   SenderThread:14452 [sender.py:send():235] send: exit
+2022-04-11 17:11:14,666 INFO    SenderThread:14452 [sender.py:send_exit():371] handling exit code: 1
+2022-04-11 17:11:14,666 INFO    SenderThread:14452 [sender.py:send_exit():373] handling runtime: 130
+2022-04-11 17:11:14,667 INFO    SenderThread:14452 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-11 17:11:14,669 INFO    SenderThread:14452 [sender.py:send_exit():379] send defer
+2022-04-11 17:11:14,669 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:14,670 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:14,671 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:14,672 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-11 17:11:14,672 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:14,673 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-11 17:11:14,673 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 1
+2022-04-11 17:11:14,674 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:14,674 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-11 17:11:14,856 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:14,856 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-11 17:11:14,856 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 2
+2022-04-11 17:11:14,856 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:14,857 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:14,857 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-11 17:11:14,857 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:14,857 DEBUG   SenderThread:14452 [sender.py:send():235] send: stats
+2022-04-11 17:11:14,858 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:14,858 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-11 17:11:14,858 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 3
+2022-04-11 17:11:14,859 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:14,859 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-11 17:11:14,859 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:14,859 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-11 17:11:14,859 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 4
+2022-04-11 17:11:14,859 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:14,860 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-11 17:11:14,860 DEBUG   SenderThread:14452 [sender.py:send():235] send: summary
+2022-04-11 17:11:14,861 INFO    SenderThread:14452 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-11 17:11:14,861 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:14,861 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-11 17:11:14,861 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 5
+2022-04-11 17:11:14,862 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:14,862 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-11 17:11:14,862 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:14,862 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-11 17:11:14,985 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:15,086 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\wandb-summary.json
+2022-04-11 17:11:15,086 INFO    Thread-11 :14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:15,251 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 6
+2022-04-11 17:11:15,251 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:15,265 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:15,265 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-11 17:11:15,266 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:15,266 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-11 17:11:15,266 INFO    SenderThread:14452 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-11 17:11:15,384 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,104 INFO    SenderThread:14452 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\config.yaml
+2022-04-11 17:11:16,104 INFO    SenderThread:14452 [dir_watcher.py:finish():313] scan: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files
+2022-04-11 17:11:16,105 INFO    SenderThread:14452 [dir_watcher.py:finish():327] scan save: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\config.yaml config.yaml
+2022-04-11 17:11:16,106 INFO    SenderThread:14452 [dir_watcher.py:finish():327] scan save: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log output.log
+2022-04-11 17:11:16,107 INFO    SenderThread:14452 [dir_watcher.py:finish():327] scan save: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\requirements.txt requirements.txt
+2022-04-11 17:11:16,120 INFO    SenderThread:14452 [dir_watcher.py:finish():327] scan save: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\wandb-metadata.json wandb-metadata.json
+2022-04-11 17:11:16,120 INFO    SenderThread:14452 [dir_watcher.py:finish():327] scan save: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\wandb-summary.json wandb-summary.json
+2022-04-11 17:11:16,123 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 7
+2022-04-11 17:11:16,129 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,141 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:16,142 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-11 17:11:16,142 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:16,142 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-11 17:11:16,142 INFO    SenderThread:14452 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-11 17:11:16,251 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,252 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,357 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,358 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,476 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,476 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,605 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,606 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,725 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,725 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,835 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,835 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:16,950 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:16,950 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:17,057 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:17,057 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:17,116 INFO    Thread-18 :14452 [upload_job.py:push():137] Uploaded file C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\config.yaml
+2022-04-11 17:11:17,119 INFO    Thread-19 :14452 [upload_job.py:push():137] Uploaded file C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\output.log
+2022-04-11 17:11:17,120 INFO    Thread-20 :14452 [upload_job.py:push():137] Uploaded file C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\requirements.txt
+2022-04-11 17:11:17,124 INFO    Thread-21 :14452 [upload_job.py:push():137] Uploaded file C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\files\wandb-summary.json
+2022-04-11 17:11:17,172 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:17,173 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:17,280 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:17,281 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:17,340 INFO    Thread-10 :14452 [sender.py:transition_state():392] send defer: 8
+2022-04-11 17:11:17,341 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:17,342 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-11 17:11:17,342 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:17,342 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-11 17:11:17,393 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:18,328 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 9
+2022-04-11 17:11:18,329 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:18,330 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:18,330 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-11 17:11:18,332 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:18,332 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-11 17:11:18,333 INFO    SenderThread:14452 [sender.py:transition_state():392] send defer: 10
+2022-04-11 17:11:18,335 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: defer
+2022-04-11 17:11:18,336 DEBUG   SenderThread:14452 [sender.py:send():235] send: final
+2022-04-11 17:11:18,336 INFO    HandlerThread:14452 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-11 17:11:18,336 DEBUG   SenderThread:14452 [sender.py:send():235] send: footer
+2022-04-11 17:11:18,337 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: defer
+2022-04-11 17:11:18,337 INFO    SenderThread:14452 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-11 17:11:18,450 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-11 17:11:18,451 DEBUG   SenderThread:14452 [sender.py:send_request():249] send_request: poll_exit
+2022-04-11 17:11:18,451 INFO    SenderThread:14452 [file_pusher.py:join():150] waiting for file pusher
+2022-04-11 17:11:19,463 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-11 17:11:19,465 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-11 17:11:19,467 DEBUG   HandlerThread:14452 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-11 17:11:19,468 INFO    HandlerThread:14452 [handler.py:finish():790] shutting down handler
+2022-04-11 17:11:20,342 INFO    SenderThread:14452 [sender.py:finish():1107] shutting down sender
+2022-04-11 17:11:20,342 INFO    WriterThread:14452 [datastore.py:close():281] close: C:\Users\minsol\Desktop\yolov5\yolov5\wandb\run-20220411_170901-tuq5ozvg\run-tuq5ozvg.wandb
+2022-04-11 17:11:20,343 INFO    SenderThread:14452 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-11 17:11:20,343 INFO    SenderThread:14452 [file_pusher.py:join():150] waiting for file pusher
+2022-04-11 17:11:20,349 INFO    MainThread:14452 [internal.py:handle_exit():82] Internal process exited
