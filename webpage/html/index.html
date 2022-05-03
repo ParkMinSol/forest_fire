@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>forest fire monitoring system</title>
+    <link rel="stylesheet" href="/webpage/css/layout/fire-info.css" />
+  </head>
+  <body>
+    <div class="fire-info">
+      <div class="fire-info-map" id="map"></div>
+      <div class="fire-info-text">
+        <h1>Forest fire Monitoring</h1>
+
+        <table id="fire-info-text-table" class="fire-info-text-table">
+          <thead>
+            <tr>
+              <th>번호</th>
+              <th>발생시간</th>
+              <th>발생위치</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="send-message">
+          <div></div>
+          <div>
+            <form></form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=425nygd1ck"
+  ></script>
+  <script src="/webpage/js/map.js"></script>
+  <script src="/webpage/js/table.js"></script>
+</html>
