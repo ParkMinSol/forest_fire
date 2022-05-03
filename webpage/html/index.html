@@ -8,14 +8,16 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
     />
     <title>forest fire monitoring system</title>
-    <link rel="stylesheet" href="/webpage/css/layout/fire-info.css" />
+    <link
+      rel="stylesheet"
+      href="/forest_fire/webpage/css/layout/fire-info.css"
+    />
   </head>
   <body>
     <div class="fire-info">
       <div class="fire-info-map" id="map"></div>
       <div class="fire-info-text">
         <h1>Forest fire Monitoring</h1>
-
         <table id="fire-info-text-table" class="fire-info-text-table">
           <thead>
             <tr>
@@ -27,9 +29,22 @@
           <tbody></tbody>
         </table>
         <div class="send-message">
-          <div></div>
-          <div>
-            <form></form>
+          <div class="send-message-messagepart">
+            <select name="fire-area" id="select-fire-area">
+              <option value="">--화재 발생 지역을 선택하시오--</option>
+              <option value="무등산">무등산</option>
+            </select>
+            <input
+              class="fire-info-message"
+              type="text"
+              name="fire-info-message"
+              placeholder="추가 정보를 입력하시오"
+            />
+          </div>
+          <div class="send-message-sendpart">
+            <button class="send-message-sendpart-button" onclick="submitForm()">
+              보내기
+            </button>
           </div>
         </div>
       </div>
@@ -39,6 +54,7 @@
     type="text/javascript"
     src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=425nygd1ck"
   ></script>
-  <script src="/webpage/js/map.js"></script>
-  <script src="/webpage/js/table.js"></script>
+  <script src="/forest_fire/webpage/js/map.js"></script>
+  <script src="/forest_fire/webpage/js/table.js"></script>
+  <script src="/forest_fire/webpage/js/slack.js"></script>
 </html>

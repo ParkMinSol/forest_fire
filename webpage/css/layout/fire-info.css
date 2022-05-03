@@ -11,7 +11,7 @@
 }
 
 .fire-info-text {
-  margin-top: -310px;
+  margin-top: -80px;
   padding-left: 50px;
   width: 50%;
 }
@@ -32,8 +32,38 @@
   border: 1px solid #333;
   text-align: center;
 }
-.fire-info-text .send-message {
+.send-message {
+  display: flex;
   margin-top: 50px;
   width: 100%;
   border-top: 2px solid rgb(34, 34, 34, 0.2);
+}
+.send-message-messagepart {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.fire-info-message {
+  margin-top: 20px;
+  width: 80%;
+  height: 130px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+#select-fire-area {
+  width: 82.5%;
+  height: 45px;
+  background-color: rgba(128, 128, 128, 0.165);
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.send-message-sendpart {
+  display: flex;
+  align-items: flex-end;
+  margin-left: -50px;
+}
+.send-message-sendpart-button {
+  width: 60px;
+  height: 40px;
 }
