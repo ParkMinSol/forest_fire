@@ -1,5 +1,12 @@
+body {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .fire-info {
-  margin: 100px;
+  width: 80%;
+  height: max-content;
   display: flex;
   align-items: center;
 }
@@ -11,7 +18,8 @@
 }
 
 .fire-info-text {
-  margin-top: -80px;
+  position: relative;
+  top: -43px;
   padding-left: 50px;
   width: 50%;
 }
@@ -34,7 +42,7 @@
 }
 .send-message {
   display: flex;
-  margin-top: 50px;
+  margin-top: 67px;
   width: 100%;
   border-top: 2px solid rgb(34, 34, 34, 0.2);
 }
@@ -45,13 +53,13 @@
 
 .fire-info-message {
   margin-top: 20px;
-  width: 80%;
+  width: 90%;
   height: 130px;
   padding-left: 10px;
   font-size: 15px;
 }
 #select-fire-area {
-  width: 82.5%;
+  width: 92.6%;
   height: 45px;
   background-color: rgba(128, 128, 128, 0.165);
   font-size: 15px;
@@ -61,9 +69,9 @@
 .send-message-sendpart {
   display: flex;
   align-items: flex-end;
-  margin-left: -50px;
+  /* margin-left: -50px; */
 }
 .send-message-sendpart-button {
-  width: 60px;
+  width: 100px;
   height: 40px;
 }
