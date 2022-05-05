@@ -1,3 +1,4 @@
+<!-- map api 없애기, 슬랙주소 제외시키기 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,9 +13,14 @@
       rel="stylesheet"
       href="/forest_fire/webpage/css/layout/fire-info.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="fire-info">
+    <div class="main-page"></div>
+    <div class="introduction"></div>
+    <div class="process"></div>
+    <div class="real-time-video"></div>
+    <div data-aos="fade-up" class="fire-info">
       <div class="fire-info-map" id="map"></div>
       <div class="fire-info-text">
         <h1>Forest fire Monitoring</h1>
@@ -50,10 +56,12 @@
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script
     type="text/javascript"
-    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=425nygd1ck"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=l1nphqlx5h"
   ></script>
+  <script src="/forest_fire/webpage/js/main.js"></script>
   <script src="/forest_fire/webpage/js/map.js"></script>
   <script src="/forest_fire/webpage/js/table.js"></script>
   <script src="/forest_fire/webpage/js/slack.js"></script>

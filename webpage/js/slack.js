@@ -4,7 +4,7 @@ function submitForm() {
   console.log(message);
   console.log(area);
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", true);
+  xhr.open("POST", "", true);
 
   //Send the proper header information along with the request
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
