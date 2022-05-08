@@ -1,8 +1,6 @@
 function submitForm() {
   var message = document.querySelector(".fire-info-message").value;
   var area = document.getElementById("select-fire-area").value;
-  console.log(message);
-  console.log(area);
   var xhr = new XMLHttpRequest();
   xhr.open("POST", "", true);
 

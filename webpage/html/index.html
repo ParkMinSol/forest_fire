@@ -9,18 +9,60 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
     />
     <title>forest fire monitoring system</title>
-    <link
-      rel="stylesheet"
-      href="/forest_fire/webpage/css/layout/fire-info.css"
-    />
+    <link rel="stylesheet" href="/forest_fire/webpage/css/layout/index.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="main-page"></div>
-    <div class="introduction"></div>
-    <div class="process"></div>
-    <div class="real-time-video"></div>
-    <div data-aos="fade-up" class="fire-info">
+    <div class="main-page">
+      <img
+        class="main-page-img"
+        src="/forest_fire/webpage/image/mainpage.jpeg"
+      />
+      <div class="main-page-logo">
+        <span>AI Hub의 국내 화재 데이터를 활용한</span>
+        <span>Yolo 기반의 산불 감시 시스템</span>
+      </div>
+    </div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="introduction"
+    ></div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="process"
+    ></div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="real-time-video"
+    >
+      <video
+        class="real-time-video-play"
+        src="/forest_fire/webpage/video.mp4"
+        controls
+        autoplay
+        muted
+      ></video>
+    </div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="fire-info"
+    >
       <div class="fire-info-map" id="map"></div>
       <div class="fire-info-text">
         <h1>Forest fire Monitoring</h1>
@@ -39,6 +81,9 @@
             <select name="fire-area" id="select-fire-area">
               <option value="">--화재 발생 지역을 선택하시오--</option>
               <option value="무등산">무등산</option>
+              <option value="무등산">금당산</option>
+              <option value="무등산">설악산</option>
+              <option value="무등산">도봉산</option>
             </select>
             <input
               class="fire-info-message"
@@ -59,7 +104,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script
     type="text/javascript"
-    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=l1nphqlx5h"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId="
   ></script>
   <script src="/forest_fire/webpage/js/main.js"></script>
   <script src="/forest_fire/webpage/js/map.js"></script>

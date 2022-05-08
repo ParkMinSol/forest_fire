@@ -1,0 +1,28 @@
+@import "/forest_fire/webpage/css/layout/fire-info.css";
+@import "/forest_fire/webpage/css/layout/main-page.css";
+body {
+  margin: 0px;
+  height: 500vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-page,
+.introduction,
+.process,
+.real-time-video {
+  height: 100vh;
+  width: 100%;
+}
+.introduction,
+.process {
+  background-color: pink;
+}
+.real-time-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.real-time-video-play {
+  width: 60%;
+  height: 50%;
+}
