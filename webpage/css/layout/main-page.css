@@ -1,13 +1,22 @@
 .main-page {
   position: relative;
 }
-.main-page-img {
+.main-page-background {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main-page-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 .main-page-logo {
+  right: 32%;
+  top: 32%;
   z-index: 3;
   position: absolute;
   display: flex;
@@ -15,5 +24,17 @@
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 40px;
-  font-family: "Nanum Gothic Coding", monospace;
+  font-family: "Nanum Gothic", sans-serif;
+  /* background-color: rgba(57, 90, 7, 0.328); */
+  border: 4px solid rgb(57, 90, 7);
+  padding: 50px 25px;
+  animation: logomove 2s;
+}
+@keyframes logomove {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
