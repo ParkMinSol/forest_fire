@@ -1,0 +1,36 @@
+.fire-info-weather {
+  display: flex;
+}
+.weather-info {
+  width: 50%;
+  position: relative;
+  font-size: 30px;
+}
+.location-of-occurrence {
+  position: absolute;
+  top: 0px;
+  font-size: 50px;
+}
+.temp {
+  position: absolute;
+  top: 70px;
+}
+.humi {
+  position: absolute;
+  top: 100px;
+}
+.wind {
+  position: absolute;
+  top: 130px;
+}
+
+.weather-image {
+  width: 50%;
+  position: relative;
+}
+#weathericon {
+  width: 90%;
+  position: absolute;
+  top: 150px;
+  right: -20px;
+}

@@ -1,0 +1,124 @@
+<!-- map api 없애기, 슬랙주소 제외시키기 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>forest fire monitoring system</title>
+    <link rel="stylesheet" href="/css/layout/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="main-page-background"></div>
+      <img class="main-page-img" src="/image/mainpage.jpeg" />
+      <div class="main-page-logo">
+        <span>AI Hub의 국내 화재 데이터를 활용한</span>
+        <span>Yolo 기반의 산불 감시 시스템</span>
+      </div>
+    </div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="introduction"
+    ></div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="process"
+    ></div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      class="fire-info"
+    >
+      <div class="fire-info-media">
+        <div class="fire-info-vw">
+          <video
+            class="fire-info-video"
+            src="/video.mp4"
+            autoplay
+            muted
+          ></video>
+          <div class="fire-info-weather">
+            <div class="weather-info">
+              <span class="location-of-occurrence"></span>
+              <span class="temp"></span>
+              <span class="humi"></span>
+              <span class="wind"></span>
+            </div>
+            <div class="weather-image">
+              <img id="weathericon" />
+            </div>
+          </div>
+        </div>
+
+        <div class="fire-info-map" id="map"></div>
+      </div>
+      <div class="fire-info-text">
+        <h1>Forest fire Monitoring</h1>
+        <table id="fire-info-text-table" class="fire-info-text-table">
+          <thead>
+            <tr>
+              <th>번호</th>
+              <th>발생시간</th>
+              <th>발생위치</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="send-message">
+          <div class="send-message-messagepart">
+            <select name="fire-area" id="select-fire-area">
+              <option value="">--화재 발생 지역을 선택하시오--</option>
+              <option value="무등산">무등산</option>
+              <option value="무등산">금당산</option>
+              <option value="무등산">설악산</option>
+              <option value="무등산">도봉산</option>
+            </select>
+            <input
+              class="fire-info-message"
+              type="text"
+              name="fire-info-message"
+              placeholder="추가 정보를 입력하시오"
+            />
+          </div>
+          <div class="send-message-sendpart">
+            <button class="send-message-sendpart-button" onclick="submitForm()">
+              보내기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="under-bar"></div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script
+    type="text/javascript"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId="
+  ></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/table.js"></script>
+  <script src="/js/slack.js"></script>
+  <script src="/js/weather.js"></script>
+</html>

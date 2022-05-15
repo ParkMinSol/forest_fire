@@ -1,0 +1,21 @@
+@import "/css/layout/fire-info.css";
+@import "/css/layout/main-page.css";
+@import "/css/layout/weather.css";
+body {
+  margin: 0px;
+  height: 400vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-page,
+.introduction,
+.process {
+  height: 100vh;
+  width: 100%;
+}
+.introduction {
+  background-color: #ffffff;
+}
+.process {
+  background-color: rgba(255, 255, 255, 0.509);
+}
