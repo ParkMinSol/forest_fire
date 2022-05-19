@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = "e39dfe82cef428c7462d1633623c65f7";
 const COORDS = "coords";
 
 const loo = document.querySelector(".location-of-occurrence");

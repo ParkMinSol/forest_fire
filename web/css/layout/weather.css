@@ -4,7 +4,10 @@
 .weather-info {
   width: 50%;
   position: relative;
-  font-size: 30px;
+  font-size: 25px;
+}
+.weather-info * {
+  left: 20px;
 }
 .location-of-occurrence {
   position: absolute;
@@ -31,6 +34,6 @@
 #weathericon {
   width: 90%;
   position: absolute;
-  top: 150px;
+  top: 100px;
   right: -20px;
 }

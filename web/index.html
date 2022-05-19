@@ -11,12 +11,17 @@
     <title>forest fire monitoring system</title>
     <link rel="stylesheet" href="/css/layout/index.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
+    <!-- 영상재생 -->
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <!-- jquery -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.slim.js"
       integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
@@ -53,10 +58,13 @@
       <div class="fire-info-media">
         <div class="fire-info-vw">
           <video
+            id="v1"
+            src=""
             class="fire-info-video"
-            src="/video.mp4"
             autoplay
             muted
+            loop
+            poster="image/videoImg.webp"
           ></video>
           <div class="fire-info-weather">
             <div class="weather-info">
@@ -109,16 +117,16 @@
         </div>
       </div>
     </div>
-    <div class="under-bar"></div>
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script
     type="text/javascript"
-    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId="
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=l1nphqlx5h"
   ></script>
   <script src="/js/main.js"></script>
   <script src="/js/map.js"></script>
   <script src="/js/table.js"></script>
   <script src="/js/slack.js"></script>
   <script src="/js/weather.js"></script>
+  <script src="/js/video.js"></script>
 </html>
