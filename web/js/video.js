@@ -3,11 +3,10 @@ var occurrencetime;
 var occurrenceplace;
 // 버튼 클릭시 Row 값 가져오기
 $(document).on("click", ".fire-info-text-table tbody tr td", function () {
-  // 현재 클릭된 Row(<tr>)
   var td = $(this);
   var tr = td.parents();
   var trch = tr.children();
-  if (isNaN(no) == false) {
+  if (isNaN(td.text()) == false) {
     no = trch.eq(0).text();
     occurrencetime = trch.eq(1).text();
     occurrenceplace = trch.eq(2).text();
