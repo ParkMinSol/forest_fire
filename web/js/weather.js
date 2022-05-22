@@ -25,7 +25,7 @@ function handleSuccess(position) {
   };
   // console.log("성공했어!!");
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric&lang=kr`;
-  console.log(url);
+  // console.log(url);
   getWeather(latitude, longitude); //얻은 좌표값을 바탕으로 날씨정보를 불러온다.
 }
 
