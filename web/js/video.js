@@ -1,25 +1,31 @@
 var no;
+var occurrencetime;
+var occurrenceplace;
 // 버튼 클릭시 Row 값 가져오기
 $(document).on("click", ".fire-info-text-table tbody tr td", function () {
   // 현재 클릭된 Row(<tr>)
-  var tr = $(this);
-
-  console.log("클릭한 Row의 모든 데이터 : " + tr.text());
-
-  no = tr.text();
-  // console.log(no);
+  var td = $(this);
+  var tr = td.parents();
+  var trch = tr.children();
   if (isNaN(no) == false) {
+    no = trch.eq(0).text();
+    occurrencetime = trch.eq(1).text();
+    occurrenceplace = trch.eq(2).text();
     showVideo();
   } else {
+    no = trch.eq(0).text();
+    occurrencetime = trch.eq(1).text();
+    occurrenceplace = trch.eq(2).text();
     showMap();
   }
 });
 
 // 테이블 값에 따른 영상을 보여주는 파트
 function showVideo() {
+  console.log(no);
+  console.log(occurrenceplace);
+  console.log(occurrencetime);
   if (no === "1") {
-    console.log("text");
-    console.log(no);
     let _video = document.querySelector(".fire-info-video");
     _video.removeAttribute("src"); // src 프로퍼티를 제거
     _video.src = "video.mp4"; // 다른 미디어로 소스 변경
@@ -44,6 +50,9 @@ function showVideo() {
 
 // 테이블 값에 따른 지도를 보여주는 파트
 function showMap() {
+  console.log(no);
+  console.log(occurrenceplace);
+  console.log(occurrencetime);
   var targetmap = document.querySelector(".fire-info-map");
   var targetvideo = document.querySelector(".fire-info-vw");
   targetvideo.style.display = "none";
