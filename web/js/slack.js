@@ -2,7 +2,11 @@ function submitForm() {
   var message = document.querySelector(".fire-info-message").value;
   var area = document.getElementById("select-fire-area").value;
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://hooks.slack.com/services/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", true);
+  xhr.open(
+    "POST",
+    "https://hooks.slack.com/services/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",
+    true
+  );
 
   //Send the proper header information along with the request
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");

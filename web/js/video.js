@@ -41,6 +41,11 @@ function showVideo() {
     _video.pause();
     _video.removeAttribute("src"); // src 프로퍼티를 제거
   }
+
+  // 날씨정보
+  var map_lat = send_lat(no);
+  var map_lon = send_lon(no);
+  handleSuccess(map_lat, map_lon);
   var targetmap = document.querySelector(".fire-info-map");
   var targetvideo = document.querySelector(".fire-info-vw");
   targetmap.style.display = "none";

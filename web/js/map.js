@@ -8,7 +8,11 @@ var map = new naver.maps.Map("map", mapOptions);
 function viewmap(map_lat, map_lon) {
   mapOptions = {
     center: new naver.maps.LatLng(map_lat, map_lon),
-    zoom: 17,
+    zoom: 16,
   };
   map = new naver.maps.Map("map", mapOptions);
+  var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(map_lat, map_lon),
+    map: map,
+  });
 }

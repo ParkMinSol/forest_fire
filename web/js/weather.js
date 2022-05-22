@@ -16,10 +16,23 @@ function askForCoords() {
   navigator.geolocation.getCurrentPosition(handleSuccess, handleError);
 }
 
-function handleSuccess(position) {
-  const latitude = position.coords.latitude;
-  const longitude = position.coords.longitude;
-  const coordsObj = {
+// function handleSuccess(position) {
+//   var latitude = position.coords.latitude;
+//   var longitude = position.coords.longitude;
+//   var coordsObj = {
+//     latitude,
+//     longitude,
+//   };
+//   // console.log("성공했어!!");
+//   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric&lang=kr`;
+//   // console.log(url);
+//   getWeather(latitude, longitude); //얻은 좌표값을 바탕으로 날씨정보를 불러온다.
+// }
+
+function handleSuccess(lat, lon) {
+  var latitude = lat;
+  var longitude = lon;
+  var coordsObj = {
     latitude,
     longitude,
   };
