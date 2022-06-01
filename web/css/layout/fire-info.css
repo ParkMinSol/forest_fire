@@ -50,7 +50,14 @@
 .fire-info-text h1 {
   font-size: 30px;
 }
-
+.table-div {
+  display: none;
+  width: 100%;
+  height: 280px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
 .fire-info-text-table {
   border-collapse: collapse;
   border: 1px solid #333;

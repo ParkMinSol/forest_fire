@@ -28,6 +28,13 @@ var serverData = [
     lon: 127.66492040955484,
   },
 ];
+// 데이터가 없을때 정보없음 상태 표시
+if (serverData.length == 0) {
+  document.querySelector("#fire-info-text-table tbody").style.display = "none";
+  document.querySelector("#fire-info-text-table").style.height = "20px";
+  document.querySelector(".table-div").style.display = "flex";
+}
+
 // 테이블 만드는 함수
 function toDOM(row) {
   var tr = "";
@@ -54,6 +61,7 @@ window.onload = function () {
 function send_lat() {
   return serverData[no - 1].lat;
 }
+4;
 function send_lon() {
   return serverData[no - 1].lon;
 }
