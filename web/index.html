@@ -18,6 +18,18 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
     <!-- 영상재생 -->
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
@@ -29,9 +41,15 @@
     ></script>
   </head>
   <body>
+    <div class="status-bar">
+      <span class="status-bar__column status-bar-logo"
+        ><i class="fa-solid fa-shield-halved"></i>Forest Gardian</span
+      >
+      <div class="status-bar__column"></div>
+    </div>
     <div class="main-page">
       <div class="main-page-background"></div>
-      <img class="main-page-img" src="/image/mainpage.jpeg" />
+      <img class="main-page-img" src="/image/mountains-gd235d9050_1280.png" />
       <div class="main-page-logo">
         <span>AI Hub의 국내 화재 데이터를 활용한</span>
         <span>Yolo 기반의 산불 감시 시스템</span>
@@ -39,19 +57,92 @@
     </div>
     <div
       data-aos="fade-up"
-      data-aos-delay="100"
+      data-aos-delay="800"
       data-aos-duration="1000"
       class="introduction"
-    ></div>
+    >
+      <div class="introduction-one">
+        <div class="introduction-title">
+          <div class="introduction-title-icon">
+            <img src="/image/premium-icon-motivational-speech-2015528.png" />
+          </div>
+          <div class="introduction-title-text">동기</div>
+        </div>
+        <div class="introduction-text">
+          <div class="introduction-main-text">2022년 3월 6일 울산 산불</div>
+          <div class="introduction-sub-text">
+            울산에서 발생한 산불의 피해액은 1274억<br />
+            2019년과 2020년의 피해액은
+            <br />
+            무려 2689억, 1580억을 기록
+            <br />
+            매년 400~600건 사이의 산불이 발생하고
+            <br />
+            큰 액수의 피해액이 매년 나오는 상황이지만
+            <br />
+            여전히 산불 담당인력과 헬기등은 부족한 상태
+            <br />
+            이러한 문제의 해결 방법을 찾으면서
+            <br />
+            이 프로젝트를 시작하였습니다.
+          </div>
+        </div>
+      </div>
+      <div class="introduction-two">
+        <div class="introduction-title">
+          <div class="introduction-title-icon">
+            <img src="/image/premium-icon-developing-2973778.png" />
+          </div>
+          <div class="introduction-title-text">개발</div>
+        </div>
+        <div class="introduction-text">
+          <div class="introduction-main-text">메인제목 - 미정</div>
+          <div class="introduction-sub-text">
+            AI Hub의 화재 발생 예측 영상 데이터를 통해<br />
+            yolo기반의 모델을 만들어 화재를 판단하도록 학습시켰습니다.
+            <br />
+            학습된 모델은 카메라로 들어온 영상을 보고
+            <br />
+            화재를 판단하며 화재가 발생했다고 판단하면
+            <br />
+            웹으로 화재 정보를 보내도록 개발하였습니다.
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="introduction-third">
+        <div class="introduction-title">
+          <div class="introduction-title-icon">
+            <img src="/image/premium-icon-magic-wand-3854932.png" />
+          </div>
+          <div class="introduction-title-text">기대효과</div>
+        </div>
+        <div class="introduction-text">
+          <div class="introduction-main-text">신속 대처와 피해규모 감소</div>
+          <div class="introduction-sub-text">
+            1) 산불이 발생하였을 때 알림을 통해
+            <br />산불 발생을 인지하고 대처 하는 방식으로
+            <br />
+            산불을 담당하기 위해
+            <br />현재 필요로 하는 인원보다 적은 인원만으로 <br />관리가
+            가능해질 것입니다. <br />
+            <br />
+            2)감시 시스템으로 화재 신고가 빠르게 되어 <br />같은 상황일 때
+            시스템 사용시 대처가 빨라져 <br />산불로 인한 피해 규모가 줄어들
+            것입니다.
+          </div>
+        </div>
+      </div>
+    </div>
     <div
       data-aos="fade-up"
-      data-aos-delay="100"
+      data-aos-delay="800"
       data-aos-duration="1000"
       class="process"
     ></div>
     <div
       data-aos="fade-up"
-      data-aos-delay="100"
+      data-aos-delay="800"
       data-aos-duration="1000"
       class="fire-info"
     >
@@ -97,9 +188,9 @@
             <select name="fire-area" id="select-fire-area">
               <option value="">--화재 발생 지역을 선택하시오--</option>
               <option value="무등산">무등산</option>
-              <option value="무등산">금당산</option>
-              <option value="무등산">설악산</option>
-              <option value="무등산">도봉산</option>
+              <option value="금당산">금당산</option>
+              <option value="설악산">설악산</option>
+              <option value="지리산">지리산</option>
             </select>
             <input
               class="fire-info-message"
@@ -120,7 +211,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script
     type="text/javascript"
-    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=l1nphqlx5h"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=cxmhf267o8"
   ></script>
   <script src="/js/main.js"></script>
   <script src="/js/map.js"></script>
@@ -128,4 +219,8 @@
   <script src="/js/slack.js"></script>
   <script src="/js/weather.js"></script>
   <script src="/js/video.js"></script>
+  <script
+    src="https://kit.fontawesome.com/b324382a19.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

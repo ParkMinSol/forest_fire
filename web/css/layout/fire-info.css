@@ -1,8 +1,9 @@
 .fire-info {
+  position: absolute;
+  top: 300vh;
   box-sizing: border-box;
-  padding-top: 90px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 170px;
+  padding-right: 170px;
   width: 100%;
   height: max-content;
   display: flex;
@@ -10,42 +11,51 @@
 }
 .fire-info-media {
   width: 50%;
+  box-sizing: border-box;
 }
 .fire-info-map {
   margin: 0px;
+  margin-top: 10px;
   width: 100%;
-  height: 600px;
+  height: 570px;
   border-radius: 20px;
 }
 .fire-info-vw {
   display: none;
   height: 600px;
+  width: 100%;
 }
 .fire-info-video {
   margin: 0px;
   width: 100%;
-  height: 300px;
+  height: 290px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .fire-info-weather {
-  margin: 0px;
-  width: 100%;
-  height: 300px;
+  width: 87%;
+  margin-left: 33px;
+  height: 255px;
+  box-sizing: border-box;
+  padding: 10px 20px;
 }
+
+/* table */
 .fire-info-text {
   position: relative;
-  top: -43px;
+  top: -35px;
   padding-left: 50px;
   width: 50%;
 }
 .fire-info-text h1 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .fire-info-text-table {
   border-collapse: collapse;
   border: 1px solid #333;
   width: 100%;
-  height: 290px;
+  height: 300px;
 }
 .fire-info-text-table th {
   border: 1px solid #333;
@@ -56,12 +66,12 @@
 }
 .send-message {
   display: flex;
-  margin-top: 67px;
+  margin-top: 40px;
   width: 100%;
   border-top: 2px solid rgb(34, 34, 34, 0.2);
 }
 .send-message-messagepart {
-  margin-top: 20px;
+  margin-top: 35px;
   width: 100%;
 }
 
@@ -88,4 +98,67 @@
 .send-message-sendpart-button {
   width: 100px;
   height: 40px;
+}
+/* @media screen and (max-width: 1600) {
+  .fire-info-weather {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+} */
+@media screen and (min-width: 1800px) {
+  .fire-info-weather {
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 13%;
+  }
+
+  .fire-info-map {
+    margin-top: 70px;
+    height: 740px;
+  }
+  .fire-info-vw {
+    height: 710px;
+  }
+  .fire-info-video {
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .fire-info-weather {
+    height: 350px;
+  }
+  .fire-info-text h1 {
+    font-size: 35px;
+  }
+  .fire-info-text {
+    top: -15px;
+  }
+  .fire-info-text-table {
+    height: 390px;
+  }
+
+  .fire-info-message {
+    height: 180px;
+    padding-left: 10px;
+  }
+  #select-fire-area {
+    margin-top: 10px;
+    height: 45px;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
+  .send-message-sendpart-button {
+    height: 40px;
+  }
+  .send-message {
+    display: flex;
+    margin-top: 50px;
+  }
+  .fire-info-weather {
+    width: 73%;
+    margin-left: 115px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

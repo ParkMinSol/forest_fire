@@ -3,30 +3,30 @@
 }
 .main-page-background {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.497);
 }
 .main-page-img {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 1;
 }
 .main-page-logo {
-  right: 27%;
-  top: 33%;
+  left: 30.3vw;
+  right: 30.3vw;
+  top: 35vh;
   z-index: 3;
   position: absolute;
   display: flex;
   flex-direction: column;
   text-align: center;
   color: rgb(255, 255, 255);
-  font-size: 40px;
-  font-family: "Nanum Gothic", sans-serif;
+  font-size: 35px;
   padding: 50px 25px;
-  animation: logomove 2s;
+  animation: logomove 2.3s;
 }
 @keyframes logomove {
   0% {
@@ -35,4 +35,7 @@
   100% {
     transform: translateY(0px);
   }
+}
+span > i {
+  margin-right: 14px;
 }

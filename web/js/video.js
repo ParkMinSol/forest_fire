@@ -61,6 +61,7 @@ function showMap() {
   var map_lat = send_lat(no);
   var map_lon = send_lon(no);
   viewmap(map_lat, map_lon);
+
   // 필요한 부분만 보이도록 설정
   var targetmap = document.querySelector(".fire-info-map");
   var targetvideo = document.querySelector(".fire-info-vw");

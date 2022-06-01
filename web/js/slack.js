@@ -4,7 +4,7 @@ function submitForm() {
   var xhr = new XMLHttpRequest();
   xhr.open(
     "POST",
-    "https://hooks.slack.com/services/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",
+    "https://hooks.slack.com/services/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",
     true
   );
 

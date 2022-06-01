@@ -1,5 +1,6 @@
 const API_KEY = "fb483792d47d7f291fdbbb3e6b675610";
 const COORDS = "coords";
+const part = "current";
 
 const loo = document.querySelector(".location-of-occurrence");
 const temp = document.querySelector(".temp");
@@ -38,7 +39,7 @@ function handleSuccess(lat, lon) {
   };
   // console.log("성공했어!!");
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric&lang=kr`;
-  // console.log(url);
+  console.log(url);
   getWeather(latitude, longitude); //얻은 좌표값을 바탕으로 날씨정보를 불러온다.
 }
 
@@ -49,6 +50,7 @@ function handleError() {
 function getWeather(lat, lon) {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`
+    // `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=${part}&appid=${API_KEY}`
   )
     .then(function (response) {
       return response.json();
@@ -73,4 +75,4 @@ function getWeather(lat, lon) {
     .catch((error) => console.log("error:", error));
 }
 
-init();
+// init();
