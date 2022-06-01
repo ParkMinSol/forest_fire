@@ -1,0 +1,64 @@
+@import "/css/layout/fire-info.css";
+@import "/css/layout/main-page.css";
+@import "/css/layout/weather.css";
+@import "/css/layout/introdution.css";
+body {
+  margin: 0px;
+  height: 300vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* font-family: "Jua", sans-serif; */
+  font-family: "Noto Sans KR", sans-serif;
+}
+.main-page,
+.introduction,
+.fire-info {
+  height: 100vh;
+  width: 100%;
+}
+
+.status-bar {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(117, 143, 187);
+  border-bottom: 6px solid rgba(83, 93, 126, 0.261);
+  justify-content: center;
+}
+.status-bar-logo {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+}
+
+.status-bar__column {
+  width: 50%;
+}
+.status-bar__column:first-child {
+  padding-left: 30px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+.status-bar__column:nth-child(2) span:nth-child(1),
+.status-bar__column:nth-child(2) span:nth-child(2) {
+  margin-right: 20px;
+}
+.status-bar__column:nth-child(2) a {
+  color: rgb(62, 62, 62);
+  text-decoration: none;
+}
+
+/* .introduction {
+  border: 10px solid red;
+}
+.fire-info {
+  border: 10px solid blue;
+} */

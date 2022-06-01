@@ -1,0 +1,41 @@
+.main-page {
+  position: relative;
+}
+.main-page-background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.497);
+}
+.main-page-img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.main-page-logo {
+  left: 30.3vw;
+  right: 30.3vw;
+  top: 35vh;
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  padding: 50px 25px;
+  animation: logomove 2.3s;
+}
+@keyframes logomove {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+span > i {
+  margin-right: 14px;
+}
