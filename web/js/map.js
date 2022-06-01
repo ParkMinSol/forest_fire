@@ -17,11 +17,9 @@ var map = new kakao.maps.Map(container, options);
 
 // Map 클래스의 객체를 map으로 선언 / 매개변수 1 : 지도를 표현하기위해 선언하였던 dom요소의 id인 map으로 직접전달 / 매개변수 2 : 지도속성 초기화를 위한 옵션 전달
 function viewmap(map_lat, map_lon) {
-  console.log(map_lat, map_lon);
-  console.log(map_lat);
   options = {
     center: new kakao.maps.LatLng(map_lat, map_lon),
-    level: 4,
+    level: 5,
   };
   map = new kakao.maps.Map(container, options);
   // 네이버지도 마커

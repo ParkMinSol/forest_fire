@@ -60,7 +60,7 @@ function getWeather(lat, lon) {
       const place = json.name;
       const winds = json.wind.speed;
       const weatherIcon = json.weather[0].icon;
-
+      console.log(weatherIcon);
       const humidity = json.main.humidity;
       // console.log(temperature + place + weatherDescription + weatherIcon);
       const weatherIconAdrs = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;

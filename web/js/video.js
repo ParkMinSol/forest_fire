@@ -21,9 +21,9 @@ $(document).on("click", ".fire-info-text-table tbody tr td", function () {
 
 // 테이블 값에 따른 영상을 보여주는 파트
 function showVideo() {
-  console.log(no);
-  console.log(occurrenceplace);
-  console.log(occurrencetime);
+  // console.log(no);
+  // console.log(occurrenceplace);
+  // console.log(occurrencetime);
   if (no === "1") {
     let _video = document.querySelector(".fire-info-video");
     _video.removeAttribute("src"); // src 프로퍼티를 제거
@@ -54,9 +54,9 @@ function showVideo() {
 
 // 테이블 값에 따른 지도를 보여주는 파트
 function showMap() {
-  console.log(no);
-  console.log(occurrenceplace);
-  console.log(occurrencetime);
+  // console.log(no);
+  // console.log(occurrenceplace);
+  // console.log(occurrencetime);
   // 위도경도값 받아와서 지도에 표현
   var map_lat = send_lat(no);
   var map_lon = send_lon(no);
