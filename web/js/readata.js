@@ -1,19 +1,19 @@
 // 서버에서 값이 올때  함수에 아래 세개 추가
 // 변수에 값을 넣음
-var inputdata = "1_35.11808065061176_127.01091525393069";
-var data = inputdata.split("_");
-getAddr(data[1], data[2], data[0]);
+// var inputdata = "1_35.11808065061176_127.01091525393069";
+// var data = inputdata.split("_");
+// getAddr(data[1], data[2], data[0]);
 
-setTimeout(function () {
-  var inputdata2 = "2_35.324789196534184_127.66492040955484";
-  var data2 = inputdata2.split("_");
-  getAddr(data2[1], data2[2], data2[0]);
-}, 3000);
-setTimeout(function () {
-  var inputdata3 = "3_35.11702008072236_126.88822707820545";
-  var data3 = inputdata3.split("_");
-  getAddr(data3[1], data3[2], data3[0]);
-}, 4000);
+// setTimeout(function () {
+//   var inputdata2 = "2_35.324789196534184_127.66492040955484";
+//   var data2 = inputdata2.split("_");
+//   getAddr(data2[1], data2[2], data2[0]);
+// }, 3000);
+// setTimeout(function () {
+//   var inputdata3 = "3_35.11702008072236_126.88822707820545";
+//   var data3 = inputdata3.split("_");
+//   getAddr(data3[1], data3[2], data3[0]);
+// }, 4000);
 
 // 좌표로 주소 변환해 테이블에 추가
 
