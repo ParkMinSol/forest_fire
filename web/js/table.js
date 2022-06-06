@@ -1,3 +1,4 @@
+// lambda - readDataFromDB, apigateway - readDataFromDB-API
 var serverData = [];
 
 // 테이블 만드는 함수
@@ -26,8 +27,10 @@ window.onload = function () {
     contentType: "application/json",
     mimeType: "application/json",
     success: function (retVal) {
+      console.log(retVal);
       var items = retVal.Items;
       // 받은 데이터 number순으로 정렬
+      console.log(typeof items);
       serverData = items.sort(function (a, b) {
         return a.number - b.number;
       });

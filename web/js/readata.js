@@ -51,7 +51,6 @@ function getAddr(newlat, newlon, no) {
       }
       var selectdata = `<option value="${address}"> ${address}</option>`;
       $("#select-fire-area").append(selectdata);
-      storage.setItem("savedata", serverData);
     }
   };
   geocoder.coord2Address(coord.getLng(), coord.getLat(), callback);

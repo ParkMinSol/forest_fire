@@ -25,11 +25,13 @@
   height: 600px;
   width: 100%;
 }
-.fire-info-video {
+.fire-info-video,
+.fire-info-imgs {
   margin: 0px;
   width: 100%;
   height: 290px;
   margin-top: 20px;
+
   margin-bottom: 15px;
 }
 .fire-info-weather {
