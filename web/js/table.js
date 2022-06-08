@@ -1,4 +1,3 @@
-// lambda - readDataFromDB, apigateway - readDataFromDB-API
 var serverData = [];
 
 // 테이블 만드는 함수
@@ -19,7 +18,7 @@ function renderTable(id, dataList) {
   }
   document.querySelector("#" + id + " tbody").innerHTML = trList;
 }
-
+var tableLength;
 window.onload = function () {
   $.ajax({
     url: "https://fcd4shenp8.execute-api.ap-northeast-2.amazonaws.com/readData/readDataFromDB?TableName=fireInformation",
@@ -27,17 +26,15 @@ window.onload = function () {
     contentType: "application/json",
     mimeType: "application/json",
     success: function (retVal) {
-      console.log(retVal);
       var items = retVal.Items;
       // 받은 데이터 number순으로 정렬
-      console.log(typeof items);
       serverData = items.sort(function (a, b) {
         return a.number - b.number;
       });
-
+      tableLength = serverData.length;
       console.log(serverData);
       // 데이터가 없을때 정보없음 상태 표시
-      if (serverData.length == 0) {
+      if (tableLength == 0) {
         document.querySelector("#fire-info-text-table tbody").style.display =
           "none";
         document.querySelector("#fire-info-text-table").style.height = "20px";
@@ -47,6 +44,7 @@ window.onload = function () {
       else {
         renderTable("fire-info-text-table", serverData);
         var count = retVal.ScannedCount;
+        tableLength = retVal.ScannedCount;
         var result = "";
         for (var i = 0; i < count; i++) {
           var row = items[i].place;

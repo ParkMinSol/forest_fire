@@ -8,6 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
     />
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
     <title>forest fire monitoring system</title>
     <link rel="stylesheet" href="/css/layout/index.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -44,13 +45,13 @@
   <body>
     <div class="status-bar">
       <span class="status-bar__column status-bar-logo"
-        ><i class="fa-solid fa-shield-halved"></i>Forest Gardian</span
+        ><i class="fa-solid fa-shield-halved"></i>Forest Guardian</span
       >
       <div class="status-bar__column"></div>
     </div>
     <div class="main-page">
       <div class="main-page-background"></div>
-      <img class="main-page-img" src="/image/background.png" />
+      <img class="main-page-img" src="/image/mainbackground.png" />
       <div class="main-page-logo">
         <span>AI Hub의 국내 화재 데이터를 활용한</span>
         <span>Yolo 기반의 산불 감시 시스템</span>
@@ -92,7 +93,7 @@
       <div class="introduction-two">
         <div class="introduction-title">
           <div class="introduction-title-icon">
-            <img src="/image/develop.png" />
+            <img src="/image/developing.png" />
           </div>
           <div class="introduction-title-text">개발</div>
         </div>
@@ -146,14 +147,15 @@
     >
       <div class="fire-info-media">
         <div class="fire-info-vw">
-          <video
+          <!-- <video
             id="v1"
             src=""
             class="fire-info-video"
             autoplay
             muted
             loop
-          ></video>
+          ></video> -->
+          <div class="fire-info-imgs" id="fire-info-img"></div>
           <div class="fire-info-weather">
             <div class="weather-info">
               <span class="location-of-occurrence"></span>
@@ -224,7 +226,6 @@
   ></script> -->
 
   <script src="/js/main.js"></script>
-  <script src="/js/s3img.js"></script>
   <script src="/js/map.js"></script>
   <script src="/js/table.js"></script>
   <script src="/js/slack.js"></script>

@@ -108,6 +108,14 @@
   width: 100px;
   height: 40px;
 }
+
+.fire-info-imgs {
+  padding-left: 45px;
+  margin-top: 37px;
+}
+#imgs {
+  height: 270px;
+}
 /* @media screen and (max-width: 1600) {
   .fire-info-weather {
     padding-left: 0%;
@@ -132,8 +140,19 @@
     height: 350px;
     margin-bottom: 20px;
   }
+  .fire-info-imgs {
+    width: 85%;
+    padding-left: 125px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  /* 변경안하기 */
+  #imgs {
+    height: 330px;
+  }
   .fire-info-weather {
     height: 350px;
+    margin-top: 50px;
   }
   .fire-info-text h1 {
     font-size: 35px;

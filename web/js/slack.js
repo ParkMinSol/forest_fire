@@ -4,10 +4,10 @@ function submitForm() {
   var xhr = new XMLHttpRequest();
   xhr.open(
     "POST",
-    "https://hooks.slack.com/services/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",
+    "https://hooks.slack.com/services/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",
     true
   );
-
+  document.querySelector(".fire-info-message").value = "";
   //Send the proper header information along with the request
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
